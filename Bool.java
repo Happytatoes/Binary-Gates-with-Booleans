@@ -40,40 +40,40 @@ public class Bool {
     // TESTING! //
     // // // // //
     System.out.println("And");
-        System.out.println(bool.and(true, true));
-        System.out.println(bool.and(true, false));
-        System.out.println(bool.and(false, true));
-        System.out.println(bool.and(false, false));
+        System.out.println(and(true, true));
+        System.out.println(and(true, false));
+        System.out.println(and(false, true));
+        System.out.println(and(false, false));
         System.out.println();
         System.out.println("Nand");
-        System.out.println(bool.nand(true, true));
-        System.out.println(bool.nand(true, false));
-        System.out.println(bool.nand(false, true));
-        System.out.println(bool.nand(false, false));
+        System.out.println(nand(true, true));
+        System.out.println(nand(true, false));
+        System.out.println(nand(false, true));
+        System.out.println(nand(false, false));
         System.out.println();
         System.out.println("Or");
-        System.out.println(bool.or(true, true));
-        System.out.println(bool.or(true, false));
-        System.out.println(bool.or(false, true));
-        System.out.println(bool.or(false, false));
+        System.out.println(or(true, true));
+        System.out.println(or(true, false));
+        System.out.println(or(false, true));
+        System.out.println(or(false, false));
         System.out.println();
         System.out.println("Nor");
-        System.out.println(bool.nor(true, true));
-        System.out.println(bool.nor(true, false));
-        System.out.println(bool.nor(false, true));
-        System.out.println(bool.nor(false, false));
+        System.out.println(nor(true, true));
+        System.out.println(nor(true, false));
+        System.out.println(nor(false, true));
+        System.out.println(nor(false, false));
         System.out.println();
         System.out.println("Xor");
-        System.out.println(bool.xor(true, true));  
-        System.out.println(bool.xor(true, false));
-        System.out.println(bool.xor(false, true));
-        System.out.println(bool.xor(false, false));
+        System.out.println(xor(true, true));  
+        System.out.println(xor(true, false));
+        System.out.println(xor(false, true));
+        System.out.println(xor(false, false));
         System.out.println();
         System.out.println("Xnor");
-        System.out.println(bool.xnor(true, true));  
-        System.out.println(bool.xnor(true, false));
-        System.out.println(bool.xnor(false, true));
-        System.out.println(bool.xnor(false, false));
+        System.out.println(xnor(true, true));  
+        System.out.println(xnor(true, false));
+        System.out.println(xnor(false, true));
+        System.out.println(xnor(false, false));
     }
 
 }
